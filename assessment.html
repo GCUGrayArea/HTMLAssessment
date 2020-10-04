@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SD27 HTML Basics Assessment</title>
+    <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+} </style>
+  </head>
+  <body>
+<h1>SHTML basics assessment for SD27</h1>
+<h2>TEXT</h2>
+<p><em>Lorem</em> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+<p>“<em>By</em> being unknowable, by resulting from events which, at the sub-atomic level, cannot be fully predicted, the future remains malleable, and retains the possibility of change, the hope of coming to prevail; victory, to use an unfashionable word. In this, the future is a game; time is one of the rules.”</p>
+<p><em>Out</em> of the night that covers me,<br>
+  Black as the Pit from pole to pole,<br>
+I thank whatever gods may be<br>
+  For my unconquerable soul.<br><br>
+
+In the fell clutch of circumstance<br>
+  I have not winced nor cried aloud.<br>
+Under the bludgeonings of chance<br>
+  My head is bloody, but unbowed.<br><br>
+
+Beyond this place of wrath and tears<br>
+  Looms but the Horror of the shade,<br>
+And yet the menace of the years<br>
+  Finds, and shall find, me unafraid.<br><br>
+
+It matters not how strait the gate,<br>
+  How charged with punishments the scroll,<br>
+I am the master of my fate:<br>
+  I am the captain of my soul.</p>
+  </body>
+
+<h2>TABLE</h2>
+<table>
+  <caption><i>for a fictitious game</i></caption>
+  <thead>
+    <tr><th colspan="5">Game Results</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+    <th style="vertical-align:top" rowspan="2">Team Name</th>
+    <th colspan="2">First Half</th>
+    <th colspan="2">Second Half</th>
+  </tr>
+
+  <tr>
+
+    <th>Q1</th>
+    <th>Q2</th>
+    <th>Q3</th>
+    <th>Q4</th>
+
+  </tr>
+
+  <tr>
+    <td>Denver</td>
+    <td style="text-align:center">7</td>
+    <td style="text-align:center">3</td>
+    <td style="text-align:center">0</td>
+    <td style="text-align:center">7</td>
+  </tr>
+
+  <tr>
+    <td>Chicago</td>
+    <td style="text-align:center">3</td>
+    <td style="text-align:center">3</td>
+    <td style="text-align:center">0</td>
+    <td style="text-align:center">7</td>
+  </tr>
+  </tbody>
+  <tfoot>
+    <tr><th colspan="5">Final result: Denver victory</th></tr>
+  </tfoot>
+
+</table>
+
+<h2>List</h2>
+<ul>
+  <li><img src="https://target.scene7.com/is/image/Target/GUEST_e3cdaadf-4647-466e-a56d-2451fd0b9c4e?fmt=webp&wid=1400&qlt=80" width="50" height="50"><a href="https://www.denverbroncos.com/">Denver Broncos<a></li>
+    <ul>
+      <li>QB</li>
+      <ul>
+        <li>Brett Rypien</li>
+      </ul>
+    </ul>
+    <li><img src="http://clipart-library.com/images/Acbr7A4ni.jpg" width="50" height="50"><a href="https://www.chicagobears.com/">Chicago Bears</a></li>
+      <ul>
+        <li>QB</li>
+        <ul>
+          <li>Nick Foles</li>
+          <li>Mitch Trubisky</li>
+        </ul>
+      </ul>
+</ul>
+
+<h2>Form</h2>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+
+  <label for="favsport">Choose a sport:</label>
+  <select id="favsport" name="sport">
+    <option value="Polo">Polo</option>
+    <option value="Dressage">Dressage</option>
+    <option value="Racing">Racing</option>
+    <option value="Buzkashi">Buzkashi</option>
+  </select><br><br>
+
+  I have personally<br>
+  <input type="checkbox" id="play" name="activities" value="play">
+  <label for="play">played</label><br>
+  <input type="checkbox" id="coach" name="activities" value="coach">
+  <label for="play">coached</label><br>
+  <input type="checkbox" id="attend" name="activities" value="attend">
+  <label for="play">attended</label><br>
+  <input type="checkbox" id="bet" name="activities" value="bet">
+  <label for="play">bet on</label><br>
+  this sport.<br><br>
+My preferred level of this sport is<br>
+<input type="radio" id="pro" name="sportlevel" value="pro">
+<label for="prof">Professional</label>
+<input type="radio" id="college" name="sportlevel" value="college">
+<label for="prof">College</label>
+<input type="radio" id="amateur" name="sportlevel" value="amateur">
+<label for="prof">Amateur</label><br><br>
+
+<input type="submit" value="Submit">
+</form>
+
+
+</html>
