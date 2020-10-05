@@ -30,7 +30,7 @@ ul {
   display: inline-block;
 }
 
-#teamRoster li img {
+#teamRoster > li > img {
   display: none;
 }
 
@@ -42,7 +42,7 @@ ul {
   background-blend-mode: lighten;
 }
 
-#teamRoster > li:first-child {
+ul#teamRoster > li:first-child {
   background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
 
 }
@@ -64,6 +64,10 @@ a:hover {
   color: yellow;
   text-decoration: none;
 }
+
+ a {
+   display:block;
+ }
 
 blockquote {
   color:yellow;
