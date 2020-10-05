@@ -17,6 +17,14 @@ td {
   color: red;
 }
 
+table tr:nth-child(odd) td {
+  background: #CCF;
+}
+
+table > tr:nth-child(even) td {
+  background: #FFF;
+}
+
 ul {
   list-style-type: square;
   display: inline-block;
